@@ -1,0 +1,54 @@
+{
+  "form_url": "file:///C:/Users/lenovo/Documents/deepseek-harness/default-workspace/tests/mock_form.html?locked=1",
+  "submit_at": "12:40:00",
+  "timezone": "Asia/Shanghai",
+  "submit_button": "#submitBtn",
+  "browser": "edge",
+  "headless": true,
+  "manual_confirm": false,
+  "time_sync": false,
+  "wait_for_fields": true,
+  "submit_delay_ms": 0,
+  "poll_interval_ms": 20,
+  "open_grace_seconds": 5,
+  "strict_fill": true,
+  "verify_before_submit": true,
+  "max_click_attempts": 1,
+  "result_timeout_seconds": 6,
+  "screenshot": true,
+  "fields": [
+    {
+      "label": "姓名",
+      "type": "text",
+      "selector": "input[placeholder*='姓名']",
+      "value": "锁定测试"
+    },
+    {
+      "label": "学号",
+      "type": "text",
+      "selector": "input[placeholder*='学号']",
+      "value": "20250002"
+    },
+    {
+      "label": "班级",
+      "type": "radio",
+      "question": "班级",
+      "option": "二班"
+    },
+    {
+      "label": "兴趣",
+      "type": "checkbox",
+      "question": "兴趣",
+      "options": [
+        "阅读",
+        "音乐"
+      ]
+    },
+    {
+      "label": "备注",
+      "type": "textarea",
+      "selector": "textarea[placeholder*='备注']",
+      "value": "开放后快速填写"
+    }
+  ]
+}

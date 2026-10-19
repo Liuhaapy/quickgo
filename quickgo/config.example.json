@@ -1,0 +1,56 @@
+{
+  "form_url": "https://f.wps.cn/g/REPLACE_ME/",
+  "submit_at": "12:40:00",
+  "timezone": "Asia/Shanghai",
+  "submit_button": "",
+  "browser": "edge",
+  "headless": false,
+  "manual_confirm": true,
+  "time_sync": true,
+  "require_time_sync": false,
+  "submit_delay_ms": 0,
+  "poll_interval_ms": 20,
+  "open_grace_seconds": 10,
+  "strict_fill": true,
+  "wait_for_fields": false,
+  "refresh_before_seconds": 0,
+  "verify_before_submit": true,
+  "max_click_attempts": 1,
+  "result_timeout_seconds": 8,
+  "screenshot": true,
+  "fields": [
+    {
+      "label": "姓名",
+      "type": "text",
+      "selector": "input[placeholder*='姓名']",
+      "value": "张三"
+    },
+    {
+      "label": "学号",
+      "type": "text",
+      "selector": "input[placeholder*='学号']",
+      "value": "20250001"
+    },
+    {
+      "label": "班级",
+      "type": "radio",
+      "question": "班级",
+      "option": "一班"
+    },
+    {
+      "label": "兴趣",
+      "type": "checkbox",
+      "question": "兴趣",
+      "options": [
+        "阅读",
+        "跑步"
+      ]
+    },
+    {
+      "label": "备注",
+      "type": "textarea",
+      "selector": "textarea[placeholder*='备注']",
+      "value": "无"
+    }
+  ]
+}

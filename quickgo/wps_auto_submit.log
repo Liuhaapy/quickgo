@@ -1,0 +1,209 @@
+18:23:55 | INFO    | 正在校准网络时间……
+18:23:55 | INFO    | 校时成功：阿里云 NTP，偏差 -0.047 秒，往返 100 ms，毫秒级
+18:23:55 | INFO    | 当前网络时间：2026-10-19 18:23:55 CST（精度：毫秒级）
+18:23:55 | INFO    | 目标提交时间：2026-10-19 18:25:02 CST（还有 66.5 秒）
+18:23:55 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:23:56 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/qGx9uWUq?openFillPage=1#routePromt/
+18:23:58 | INFO    | 表单输入控件已加载。
+18:24:00 | INFO    | 页面标题：测试
+18:24:00 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/qGx9uWUq?openFillPage=1#routePromt
+18:24:02 | INFO    | 等待自动刷新表单：2026-10-19 18:25:01 CST
+18:25:01 | INFO    | 自动刷新表单页面……
+18:25:01 | INFO    | 浏览器弹窗：（自动确认）
+18:25:02 | INFO    | 表单输入控件已加载。
+18:25:03 | INFO    | 页面标题：测试
+18:25:03 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/qGx9uWUq?openFillPage=1#routePromt
+18:25:03 | INFO    | 表单页面刷新完成。
+18:25:03 | INFO    | 开始填写 2 个字段……
+18:25:03 | INFO    | 字段已经可用，按正常速度填写。
+18:25:03 | INFO    | 已填写：1.12 单选题（radio）
+18:25:03 | INFO    | [1/2] 1.12 单选题 完成
+18:25:04 | INFO    | 已填写：2.33 填空题（textarea）
+18:25:04 | INFO    | [2/2] 2.33 填空题 完成
+18:25:04 | INFO    | 提交按钮：text='提 交' tag=BUTTON class='ant-btn ant-btn-primary ksapc-btn ksapc-btn-xlarge ksapc-btn-primary src-components-write-footer-index__submitBtn'
+18:25:04 | INFO    | 开始等待目标时间：2026-10-19 18:25:02 CST
+18:25:04 | INFO    | 进入高频轮询：目标时间前约 1 秒开始检查按钮状态。
+18:25:04 | INFO    | 点击提交按钮（文字：'提 交'，距目标 +2.059 秒）
+18:25:04 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\before_submit_20261019_182504_098.png
+18:25:12 | WARNING | 没有检测到明确的成功/失败提示。请立即查看浏览器页面和 artifacts/ 截图，不要盲目重复运行，以免重复提交。
+18:25:12 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\submit_result_unknown_20261019_182512_263.png
+18:34:19 | ERROR   | Expecting ',' delimiter: line 52 column 14 (char 1164)
+18:34:52 | ERROR   | Expecting ',' delimiter: line 53 column 14 (char 1165)
+18:35:19 | ERROR   | Expecting ',' delimiter: line 53 column 14 (char 1165)
+18:36:09 | ERROR   | Expecting ',' delimiter: line 53 column 14 (char 1165)
+18:38:23 | ERROR   | Expecting ':' delimiter: line 47 column 14 (char 1049)
+18:39:22 | INFO    | --fill-only / --inspect：跳过网络校时和目标时间校验。
+18:39:22 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:39:23 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:39:25 | INFO    | 表单输入控件已加载。
+18:39:31 | INFO    | 正在校准网络时间……
+18:39:31 | INFO    | 校时成功：阿里云 NTP，偏差 -0.075 秒，往返 68 ms，毫秒级
+18:39:31 | INFO    | 当前网络时间：2026-10-19 18:39:31 CST（精度：毫秒级）
+18:39:31 | INFO    | 目标提交时间：2026-10-19 18:41:02 CST（还有 90.4 秒）
+18:39:31 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:39:32 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:39:34 | INFO    | 表单输入控件已加载。
+18:39:36 | INFO    | 页面标题：未命名表单
+18:39:36 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:39:40 | INFO    | 等待自动刷新表单：2026-10-19 18:41:01 CST
+18:41:01 | INFO    | 自动刷新表单页面……
+18:41:01 | INFO    | 浏览器弹窗：（自动确认）
+18:41:02 | INFO    | 表单输入控件已加载。
+18:41:03 | INFO    | 页面标题：未命名表单
+18:41:03 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:41:03 | INFO    | 表单页面刷新完成。
+18:41:03 | INFO    | 开始填写 6 个字段……
+18:41:03 | ERROR   | 检查字段「1.姓名 填空题」失败：找不到题目「题号.姓名」所在的表单区域。请在 config.json 里给该字段写 container 或 selector。
+18:42:22 | INFO    | 正在校准网络时间……
+18:42:23 | INFO    | 校时成功：阿里云 NTP，偏差 -0.122 秒，往返 165 ms，毫秒级
+18:42:23 | INFO    | 当前网络时间：2026-10-19 18:42:23 CST（精度：毫秒级）
+18:42:23 | INFO    | 目标提交时间：2026-10-19 18:43:02 CST（还有 38.3 秒）
+18:42:24 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:42:24 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:42:26 | INFO    | 表单输入控件已加载。
+18:42:29 | INFO    | 页面标题：未命名表单
+18:42:29 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:42:34 | INFO    | 等待自动刷新表单：2026-10-19 18:43:01 CST
+18:43:01 | INFO    | 自动刷新表单页面……
+18:43:01 | INFO    | 浏览器弹窗：（自动确认）
+18:43:02 | INFO    | 表单输入控件已加载。
+18:43:03 | INFO    | 页面标题：未命名表单
+18:43:03 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:43:03 | INFO    | 表单页面刷新完成。
+18:43:03 | INFO    | 开始填写 6 个字段……
+18:43:03 | ERROR   | 检查字段「3.电话号码 填空题」失败：找不到题目「3.电话号码」所在的表单区域。请在 config.json 里给该字段写 container 或 selector。
+18:44:14 | INFO    | 正在校准网络时间……
+18:44:14 | INFO    | 校时成功：阿里云 NTP，偏差 -0.083 秒，往返 63 ms，毫秒级
+18:44:14 | INFO    | 当前网络时间：2026-10-19 18:44:14 CST（精度：毫秒级）
+18:44:14 | INFO    | 目标提交时间：2026-10-19 18:45:02 CST（还有 47.4 秒）
+18:44:14 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:44:15 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:44:19 | INFO    | 表单输入控件已加载。
+18:44:22 | INFO    | 页面标题：未命名表单
+18:44:22 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:44:23 | INFO    | 等待自动刷新表单：2026-10-19 18:45:01 CST
+18:45:01 | INFO    | 自动刷新表单页面……
+18:45:01 | INFO    | 浏览器弹窗：（自动确认）
+18:45:02 | INFO    | 表单输入控件已加载。
+18:45:03 | INFO    | 页面标题：未命名表单
+18:45:03 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:45:03 | INFO    | 表单页面刷新完成。
+18:45:03 | INFO    | 开始填写 6 个字段……
+18:45:03 | INFO    | 字段已经可用，按正常速度填写。
+18:45:03 | INFO    | 已填写：1.姓名 填空题（textarea）
+18:45:03 | INFO    | [1/6] 1.姓名 填空题 完成
+18:45:03 | INFO    | 已填写：2.学号 填空题（textarea）
+18:45:03 | INFO    | [2/6] 2.学号 填空题 完成
+18:45:03 | INFO    | 已填写：3.手机号 填空题（textarea）
+18:45:03 | INFO    | [3/6] 3.手机号 填空题 完成
+18:45:04 | INFO    | 已填写：4.性别 单选题（radio）
+18:45:04 | INFO    | [4/6] 4.性别 单选题 完成
+18:45:04 | INFO    | 已填写：5.学号 填空题（textarea）
+18:45:04 | INFO    | [5/6] 5.学号 填空题 完成
+18:45:04 | INFO    | 已填写：6.学院 填空题（textarea）
+18:45:04 | INFO    | [6/6] 6.学院 填空题 完成
+18:45:04 | INFO    | 提交按钮：text='提 交' tag=BUTTON class='ant-btn ant-btn-primary ksapc-btn ksapc-btn-xlarge ksapc-btn-primary src-components-write-footer-index__submitBtn'
+18:45:04 | INFO    | 开始等待目标时间：2026-10-19 18:45:02 CST
+18:45:04 | INFO    | 进入高频轮询：目标时间前约 1 秒开始检查按钮状态。
+18:45:04 | INFO    | 点击提交按钮（文字：'提 交'，距目标 +2.231 秒）
+18:45:04 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\before_submit_20261019_184504_311.png
+18:45:12 | WARNING | 没有检测到明确的成功/失败提示。请立即查看浏览器页面和 artifacts/ 截图，不要盲目重复运行，以免重复提交。
+18:45:12 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\submit_result_unknown_20261019_184512_492.png
+18:46:26 | INFO    | 正在校准网络时间……
+18:46:26 | INFO    | 校时成功：阿里云 NTP，偏差 -0.083 秒，往返 71 ms，毫秒级
+18:46:26 | INFO    | 当前网络时间：2026-10-19 18:46:26 CST（精度：毫秒级）
+18:46:26 | INFO    | 目标提交时间：2026-10-19 18:47:02 CST（还有 35.3 秒）
+18:46:27 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:46:27 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:46:29 | INFO    | 表单输入控件已加载。
+18:46:32 | INFO    | 页面标题：未命名表单
+18:46:32 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:46:33 | INFO    | 等待自动刷新表单：2026-10-19 18:47:01 CST
+18:47:01 | INFO    | 自动刷新表单页面……
+18:47:01 | INFO    | 浏览器弹窗：（自动确认）
+18:47:02 | INFO    | 表单输入控件已加载。
+18:47:03 | INFO    | 页面标题：未命名表单
+18:47:03 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:47:03 | INFO    | 表单页面刷新完成。
+18:47:03 | INFO    | 开始填写 6 个字段……
+18:47:03 | INFO    | 字段已经可用，按正常速度填写。
+18:47:03 | INFO    | 已填写：1.姓名 填空题（textarea）
+18:47:03 | INFO    | [1/6] 1.姓名 填空题 完成
+18:47:03 | INFO    | 已填写：2.学号 填空题（textarea）
+18:47:03 | INFO    | [2/6] 2.学号 填空题 完成
+18:47:03 | INFO    | 已填写：3.手机号 填空题（textarea）
+18:47:03 | INFO    | [3/6] 3.手机号 填空题 完成
+18:47:03 | INFO    | 已填写：4.性别 单选题（radio）
+18:47:03 | INFO    | [4/6] 4.性别 单选题 完成
+18:47:04 | INFO    | 已填写：5.学号 填空题（textarea）
+18:47:04 | INFO    | [5/6] 5.学号 填空题 完成
+18:47:04 | INFO    | 已填写：6.学院 填空题（textarea）
+18:47:04 | INFO    | [6/6] 6.学院 填空题 完成
+18:47:04 | INFO    | 提交按钮：text='提 交' tag=BUTTON class='ant-btn ant-btn-primary ksapc-btn ksapc-btn-xlarge ksapc-btn-primary src-components-write-footer-index__submitBtn'
+18:47:04 | INFO    | 开始等待目标时间：2026-10-19 18:47:02 CST
+18:47:04 | INFO    | 进入高频轮询：目标时间前约 1 秒开始检查按钮状态。
+18:47:04 | INFO    | 点击提交按钮（文字：'提 交'，距目标 +2.143 秒）
+18:47:04 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\before_submit_20261019_184704_229.png
+18:49:41 | INFO    | --fill-only / --inspect：跳过网络校时和目标时间校验。
+18:49:41 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:49:41 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:49:44 | INFO    | 表单输入控件已加载。
+18:49:46 | INFO    | 页面标题：未命名表单
+18:49:46 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:49:50 | INFO    | 开始填写 6 个字段……
+18:49:50 | INFO    | 已填写：1.姓名 填空题（textarea）
+18:49:50 | INFO    | [1/6] 1.姓名 填空题 完成
+18:49:50 | INFO    | 已填写：2.学号 填空题（textarea）
+18:49:50 | INFO    | [2/6] 2.学号 填空题 完成
+18:49:50 | INFO    | 已填写：3.手机号 填空题（textarea）
+18:49:50 | INFO    | [3/6] 3.手机号 填空题 完成
+18:49:51 | INFO    | 已填写：4.性别 单选题（radio）
+18:49:51 | INFO    | [4/6] 4.性别 单选题 完成
+18:49:51 | INFO    | 已填写：5.学号 填空题（textarea）
+18:49:51 | INFO    | [5/6] 5.学号 填空题 完成
+18:49:51 | INFO    | 已填写：6.学院 填空题（textarea）
+18:49:51 | INFO    | [6/6] 6.学院 填空题 完成
+18:49:51 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\filled_preview_20261019_184951_576.png
+18:49:51 | INFO    | --fill-only：已填表并截图，不等待、不提交。
+18:50:32 | INFO    | --fill-only / --inspect：跳过网络校时和目标时间校验。
+18:50:33 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:50:33 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:50:35 | INFO    | 表单输入控件已加载。
+18:50:38 | INFO    | 页面标题：未命名表单
+18:50:38 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:50:40 | INFO    | 开始填写 6 个字段……
+18:50:42 | INFO    | 已填写：1.姓名 填空题（textarea）
+18:50:42 | INFO    | [1/6] 1.姓名 填空题 完成
+18:50:44 | INFO    | 已填写：2.学号 填空题（textarea）
+18:50:44 | INFO    | [2/6] 2.学号 填空题 完成
+18:50:46 | INFO    | 已填写：3.手机号 填空题（textarea）
+18:50:46 | INFO    | [3/6] 3.手机号 填空题 完成
+18:50:49 | INFO    | 已填写：4.性别 单选题（radio）
+18:50:49 | INFO    | [4/6] 4.性别 单选题 完成
+18:50:51 | INFO    | 已填写：5.学号 填空题（textarea）
+18:50:51 | INFO    | [5/6] 5.学号 填空题 完成
+18:50:53 | INFO    | 已填写：6.学院 填空题（textarea）
+18:50:53 | INFO    | [6/6] 6.学院 填空题 完成
+18:50:53 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\filled_preview_20261019_185053_765.png
+18:50:53 | INFO    | --fill-only：已填表并截图，不等待、不提交。
+18:51:39 | INFO    | --fill-only / --inspect：跳过网络校时和目标时间校验。
+18:51:39 | INFO    | 启动浏览器：edge（用户目录：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\.wps_profile）
+18:51:39 | INFO    | 打开表单：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:51:41 | INFO    | 表单输入控件已加载。
+18:51:44 | INFO    | 页面标题：未命名表单
+18:51:44 | INFO    | 当前地址：https://f.wps.cn/ksform/w/write/3CQAwZBo?openFillPage=1#routePromt
+18:51:45 | INFO    | 开始填写 6 个字段……
+18:51:48 | INFO    | 已填写：1.姓名 填空题（textarea）
+18:51:48 | INFO    | [1/6] 1.姓名 填空题 完成
+18:51:50 | INFO    | 已填写：2.学号 填空题（textarea）
+18:51:50 | INFO    | [2/6] 2.学号 填空题 完成
+18:51:52 | INFO    | 已填写：3.手机号 填空题（textarea）
+18:51:52 | INFO    | [3/6] 3.手机号 填空题 完成
+18:51:55 | INFO    | 已填写：4.性别 单选题（radio）
+18:51:55 | INFO    | [4/6] 4.性别 单选题 完成
+18:51:57 | INFO    | 已填写：5.学号 填空题（textarea）
+18:51:57 | INFO    | [5/6] 5.学号 填空题 完成
+18:51:59 | INFO    | 已填写：6.学院 填空题（textarea）
+18:51:59 | INFO    | [6/6] 6.学院 填空题 完成
+18:51:59 | INFO    | 截图：C:\Users\lenovo\Documents\deepseek-harness\default-workspace\artifacts\filled_preview_20261019_185159_596.png
+18:51:59 | INFO    | --fill-only：已填表并截图，不等待、不提交。

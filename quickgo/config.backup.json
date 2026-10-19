@@ -1,0 +1,35 @@
+{
+  "form_url": "https://f.wps.cn/ksform/w/write/qGx9uWUq?openFillPage=1#routePromt/",
+  "submit_at": "17:57:00",
+  "timezone": "Asia/Shanghai",
+  "submit_button": "",
+  "browser": "edge",
+  "headless": false,
+  "manual_confirm": true,
+  "time_sync": true,
+  "require_time_sync": false,
+  "submit_delay_ms": 0,
+  "poll_interval_ms": 20,
+  "open_grace_seconds": 10,
+  "strict_fill": true,
+  "wait_for_fields": true,
+  "refresh_before_seconds": 0,
+  "verify_before_submit": true,
+  "max_click_attempts": 1,
+  "result_timeout_seconds": 8,
+  "screenshot": true,
+  "fields": [
+    {
+      "label": "1.12 单选题",
+      "type": "radio",
+      "question": "1.12",
+      "option": "1"
+    },
+    {
+      "label": "2.33 填空题",
+      "type": "textarea",
+      "question": "2.33",
+      "value": "刘天禹"
+    }
+  ]
+}

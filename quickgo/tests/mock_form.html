@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本地模拟 WPS 表单</title>
+  <style>
+    body { font-family: "Microsoft YaHei", sans-serif; background: #f5f6f8; margin: 0; padding: 30px; }
+    .form { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 10px; padding: 28px 32px; box-shadow: 0 4px 18px rgba(0,0,0,.08); }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    .tip { color: #888; font-size: 13px; margin-bottom: 24px; }
+    .question { border-top: 1px solid #eee; padding: 18px 0; }
+    .q-title { font-weight: 600; margin-bottom: 10px; }
+    input[type="text"], textarea { width: 100%; box-sizing: border-box; border: 1px solid #d9d9d9; border-radius: 6px; padding: 10px 12px; font-size: 14px; }
+    textarea { min-height: 80px; resize: vertical; }
+    label { display: inline-flex; align-items: center; gap: 6px; margin-right: 20px; cursor: pointer; }
+    button { margin-top: 24px; width: 100%; border: 0; border-radius: 6px; padding: 13px; font-size: 16px; background: #2f6bff; color: #fff; cursor: pointer; }
+    button:disabled { background: #b9c4d8; cursor: not-allowed; }
+    #msg { margin-top: 18px; font-size: 16px; color: #0a8f3c; font-weight: 600; min-height: 24px; }
+    #countdown { color: #d46b08; font-size: 13px; margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <div class="form">
+    <h1>本地模拟 WPS 表单</h1>
+    <div class="tip">仅用于测试脚本，不会访问网络。提交按钮会在页面加载 4 秒后变为可点击。</div>
+
+    <div class="question">
+      <div class="q-title">姓名</div>
+      <input type="text" placeholder="请输入姓名" autocomplete="off">
+    </div>
+
+    <div class="question">
+      <div class="q-title">学号</div>
+      <input type="text" placeholder="请输入学号" autocomplete="off">
+    </div>
+
+    <div class="question">
+      <div class="q-title">班级</div>
+      <label><input type="radio" name="class" value="1"><span>一班</span></label>
+      <label><input type="radio" name="class" value="2"><span>二班</span></label>
+      <label><input type="radio" name="class" value="3"><span>三班</span></label>
+    </div>
+
+    <div class="question">
+      <div class="q-title">兴趣</div>
+      <label><input type="checkbox" name="hobby" value="read"><span>阅读</span></label>
+      <label><input type="checkbox" name="hobby" value="run"><span>跑步</span></label>
+      <label><input type="checkbox" name="hobby" value="music"><span>音乐</span></label>
+    </div>
+
+    <div class="question">
+      <div class="q-title">备注</div>
+      <textarea placeholder="请输入备注"></textarea>
+    </div>
+
+    <button id="submitBtn" type="button" disabled>未开放<span id="countdown"></span></button>
+    <div id="msg"></div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('submitBtn');
+    const msg = document.getElementById('msg');
+    const countdown = document.getElementById('countdown');
+    const openAt = Date.now() + 4000;
+    const locked = new URLSearchParams(location.search).get('locked') === '1';
+    const fields = [...document.querySelectorAll('input, textarea')];
+    if (locked) {
+      fields.forEach(field => { field.disabled = true; });
+    }
+
+    const timer = setInterval(() => {
+      const left = Math.max(0, Math.ceil((openAt - Date.now()) / 1000));
+      countdown.textContent = left ? `（${left}s）` : '';
+      if (Date.now() >= openAt) {
+        btn.disabled = false;
+        btn.textContent = '提交';
+        if (locked) {
+          fields.forEach(field => { field.disabled = false; });
+        }
+        clearInterval(timer);
+      }
+    }, 100);
+
+    btn.addEventListener('click', () => {
+      if (Date.now() < openAt) {
+        msg.style.color = '#d4380d';
+        msg.textContent = '还没开放，不能提交';
+        return;
+      }
+      const name = document.querySelector('input[placeholder*="姓名"]').value;
+      const sid = document.querySelector('input[placeholder*="学号"]').value;
+      const cls = document.querySelector('input[name="class"]:checked');
+      const hobbies = [...document.querySelectorAll('input[name="hobby"]:checked')].map(x => x.value);
+      msg.style.color = '#0a8f3c';
+      msg.textContent = `提交成功：${name} / ${sid} / ${cls ? cls.value : '未选'} / ${hobbies.join(',') || '未选'}`;
+    });
+  </script>
+</body>
+</html>
